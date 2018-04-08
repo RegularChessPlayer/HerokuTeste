@@ -2,7 +2,7 @@
 #
 # A *bookmark server* or URI shortener.
 
-import http.
+import http.server
 import threading
 from socketserver import ThreadingMixIn
 import os
